@@ -2,12 +2,12 @@
 int main(){
     float a,b;
     printf("enter first number: ");
-    scanf("%d", &a);
+    scanf("%f", &a);
 
     printf("enter second number: ");
-    scanf("%d", &b);
+    scanf("%f", &b);
 
     float sum = a + b;
-    printf ("sum = %d", sum);
+    printf ("sum = %f", sum);
     return 0;
 }
